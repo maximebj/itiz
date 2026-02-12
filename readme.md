@@ -22,3 +22,8 @@ Pour lancer le compilateur :
 ```
 npm start
 ```
+
+## Changelog
+
+v0.1
+Mise en place du projet  
