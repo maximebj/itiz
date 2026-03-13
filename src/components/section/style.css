@@ -1,0 +1,21 @@
+.section {
+  padding: 100px 16px;
+}
+
+.section__container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.section.is-white {
+  background: #fff;
+}
+
+.section.is-neutral {
+  background: #E4E7F1;
+}
+
+.section.is-brand {
+  background: #3D5A6C;
+  color: #fff;
+}
