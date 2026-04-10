@@ -14,6 +14,9 @@ function App() {
           Un autre <strong>paragraphe</strong> avec du texte en gras
         </p>
         <h1>Titre</h1>
+        <div className="center-block">
+          <p>Texte centré</p>
+        </div>
       </Section>
     </>
   );
