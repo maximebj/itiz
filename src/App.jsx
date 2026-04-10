@@ -9,7 +9,7 @@ function App() {
       <Header />
 
       <Section type="neutral">
-        <Stack gap="small">
+        <Stack gap="small" direction="vertical" className="stack-example">
           <div className="block">Texte</div>
           <div className="block">Texte</div>
           <p>Un paragraphe</p>
