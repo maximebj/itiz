@@ -21,3 +21,18 @@
   background: #ccc;
   border-radius: 10px;
 }
+
+@media (width<1024px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .column {
+    order: 2;
+    width: 100% !important;
+  }
+
+  .column.is-first-on-mobile {
+    order: 1;
+  }
+}

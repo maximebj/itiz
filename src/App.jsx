@@ -31,8 +31,8 @@ function App() {
             <Column size={20}>
               <p>Colonne 2</p>
             </Column>
-            <Column size={30}>
-              <p>Colonne 2</p>
+            <Column size={30} className="is-first-on-mobile">
+              <p>Colonne 3</p>
             </Column>
           </Columns>
 

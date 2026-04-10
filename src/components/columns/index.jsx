@@ -7,10 +7,10 @@ export function Columns(props) {
 }
 
 export function Column(props) {
-  const { children, size = 50 } = props;
+  const { children, size = 50, className } = props;
 
   return (
-    <div className="column" style={{ width: `${size}%` }}>
+    <div className={`column ${className}`} style={{ width: `${size}%` }}>
       {children}
     </div>
   );
