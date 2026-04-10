@@ -1,0 +1,28 @@
+.canvas {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex: auto;
+  min-height: 0;
+  background: red;
+}
+
+.footer {
+  background: blue;
+}
+
+.sidebar {
+  width: 300px;
+  background: green;
+}
+
+.main-content {
+  flex: auto;
+  min-height: 0;
+  background: yellow;
+  overflow-y: scroll;
+}
