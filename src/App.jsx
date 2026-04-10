@@ -3,6 +3,7 @@ import Header from "./components/header";
 import { Columns, Column } from "./components/columns";
 import Stack from "./components/stack";
 import Text from "./components/text";
+import Grid from "./components/grid";
 
 function App() {
   return (
@@ -42,6 +43,29 @@ function App() {
             <div className="flex-simple">Item 3</div>
             <div className="flex-simple">Item 3</div>
           </div>
+
+          <Grid>
+            <Grid.Item className="is-double">Item 1</Grid.Item>
+            <Grid.Item>Item 2</Grid.Item>
+            <Grid.Item>Item 3</Grid.Item>
+            <Grid.Item>Item 4</Grid.Item>
+            <Grid.Item>Item 5</Grid.Item>
+            <Grid.Item>Item 6</Grid.Item>
+            <Grid.Item>Item 7</Grid.Item>
+            <Grid.Item>Item 8</Grid.Item>
+            <Grid.Item>Item 9</Grid.Item>
+            <Grid.Item>Item 10</Grid.Item>
+            <Grid.Item>Item 11</Grid.Item>
+            <Grid.Item>Item 12</Grid.Item>
+            <Grid.Item>Item 13</Grid.Item>
+            <Grid.Item>Item 14</Grid.Item>
+            <Grid.Item>Item 15</Grid.Item>
+            <Grid.Item>Item 16</Grid.Item>
+            <Grid.Item>Item 17</Grid.Item>
+            <Grid.Item>Item 18</Grid.Item>
+            <Grid.Item>Item 19</Grid.Item>
+            <Grid.Item>Item 20</Grid.Item>
+          </Grid>
         </Stack>
       </Section>
     </>
