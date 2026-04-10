@@ -17,6 +17,16 @@ a:hover {
   color: red;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 
 /* Nos composants */
 .block {
@@ -33,4 +43,21 @@ a:hover {
   width: 500px;
   height: 300px;
   background: white;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+
+  &>* {
+    background: chartreuse;
+  }
+
+  .flex-simple {
+    flex: 1;
+  }
+
+  .flex-double {
+    flex: 2;
+  }
 }

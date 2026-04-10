@@ -30,6 +30,13 @@ function App() {
             <p>Colonne 2</p>
           </Column>
         </Columns>
+
+        <div className="flex">
+          <div className="flex-simple">Item 1</div>
+          <div className="flex-double">Item 2</div>
+          <div className="flex-simple">Item 3</div>
+          <div className="flex-simple">Item 3</div>
+        </div>
       </Section>
     </>
   );
