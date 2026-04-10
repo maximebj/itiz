@@ -2,6 +2,7 @@ import Section from "./components/section";
 import Header from "./components/header";
 import { Columns, Column } from "./components/columns";
 import Stack from "./components/stack";
+import Text from "./components/text";
 
 function App() {
   return (
@@ -12,14 +13,16 @@ function App() {
         <Stack gap="small" direction="vertical" className="stack-example">
           <div className="block">Texte</div>
           <div className="block">Texte</div>
-          <p>Un paragraphe</p>
-          <p>
+          <Text size="large">Un paragraphe</Text>
+          <Text>
             Un autre <strong>paragraphe</strong> avec du texte en gras
-          </p>
-          <h1>Titre</h1>
+          </Text>
+          <Text size="xxlarge">Titre</Text>
           <div className="center-block">
-            <p>Texte centré</p>
+            <Text>Texte centré</Text>
           </div>
+
+          <Text className="desktop-only">Je suis caché sur mobile</Text>
 
           <Columns gap="small">
             <Column size={50}>

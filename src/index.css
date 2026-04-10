@@ -1,5 +1,39 @@
 /* @import "tailwindcss"; */
 
+:root {
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-tertiary: #28a745;
+  --color-quaternary: #dc3545;
+  --color-quinary: #ffc107;
+  --color-senary: #17a2b8;
+  --color-septenary: #6f42c1;
+  --color-octonary: #e83e8c;
+
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 30px;
+  --spacing-xlarge: 40px;
+  --spacing-xxlarge: 50px;
+
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-xlarge: 28px;
+  --font-size-xxlarge: clamp(20px, calc(20px + 1vw), 64px);
+}
+
+@media (width<=768px) {
+  :root {
+    --font-size-xlarge: 20px;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
+
+
 /* Reset */
 body {
   margin: 0;

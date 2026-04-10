@@ -1,0 +1,19 @@
+.text.is-small {
+  font-size: var(--font-size-small);
+}
+
+.text.is-medium {
+  font-size: var(--font-size-medium);
+}
+
+.text.is-large {
+  font-size: var(--font-size-large);
+}
+
+.text.is-xlarge {
+  font-size: var(--font-size-xlarge);
+}
+
+.text.is-xxlarge {
+  font-size: var(--font-size-xxlarge);
+}
