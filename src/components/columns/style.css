@@ -1,0 +1,23 @@
+.columns {
+  display: flex;
+  gap: 50px;
+}
+
+.columns.has-gap-small {
+  gap: 10px;
+}
+
+.columns.has-gap-medium {
+  gap: 50px;
+}
+
+.columns.has-gap-large {
+  gap: 100px;
+}
+
+.column {
+  padding: 10px;
+  width: 50%;
+  background: #ccc;
+  border-radius: 10px;
+}
